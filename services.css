@@ -1,0 +1,109 @@
+html{
+    font-family: "Montserrat",'Century Gothic';
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+}
+h1{
+    filter: invert(100%);
+}
+h2{
+    color: rgb(22, 175, 175);
+}
+.container{
+    width: 100%;
+   
+    text-align: center;
+    padding-bottom: 2%;
+}
+.priceMain{
+    width: 80%;
+    margin:5% auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-gap:2% ;
+    padding: 2% 2% 2% 2%;
+
+}
+.priceMain ul{
+    text-align: left;
+    list-style: none;
+}
+.priceMain li{
+    padding: 3%;
+}
+.basic, .advanced, .premium{
+    padding-bottom: 5%;
+    width: 100%;
+    border: 3px solid rgb(22, 175, 175);
+    background-color: #fff;
+    z-index: 1;
+    transition: .8s;
+}
+.priceMain p{
+    font-size: 2em;
+}
+.priceMain button{
+    height: 60px;
+    width: 40%;
+    background-color: rgb(22, 175, 175);
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .8s;
+}
+.priceMain button:hover{
+    border: 3px solid rgb(22, 175, 175);
+    background: transparent;
+    color: rgb(22, 175, 175);
+    transition: all .8s;
+}
+.ftr{
+    border-top: 1px solid black;
+    width: 100%;
+    background-color: #fff;
+    margin: 10% 0 0 0;
+    text-align: center;
+    z-index: 1;
+}
+.ico ul{
+    list-style: none;
+}
+.ico li{
+    display: inline-block;
+    padding-left: 1%;
+    cursor: pointer;
+}
+.premium:hover{
+    box-shadow: 6px 6px 6px rgb(22, 175, 175);
+    transition:all .8s;
+}
+.advanced:hover{
+    box-shadow: 6px 6px 6px rgb(22, 175, 175);
+    transition:all .8s ease-in-out;
+}
+.basic:hover{
+    box-shadow: 6px 6px 6px rgb(22, 175, 175);
+    transition:all .8s ease-in-out;
+}
+@media only screen and (max-width: 900px){
+    html{
+        overflow-x: none;
+        background: none;
+    }
+    h1{
+        color: rgb(22, 175, 175);
+        filter: none;
+    }
+    .priceMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .basic ,.advanced, .premium{
+        margin: 2%;
+    }
+    .ftr{
+        font-size: .8em;
+    }
+}

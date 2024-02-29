@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/0b39d85c82.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+<link rel="stylesheet" href="contact.css">
+<script>
+    function toggle(){
+        var all = document.getElementById('all');
+        all.classList.toggle('active')
+        var popup = document.getElementById('popup');
+        popup.classList.toggle('active')
+    }
+</script>
+</head>
+<body>
+    <div class="popup" id="popup">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAADz0lEQVR4nO2b224URxCGi9P+f8/ia0iERDi8ACiXCYcXiGQpFyR5AhLOCBsUWSKBECS4ILYVXiE8BBjBDQQjIbTbbXxBwgMgzCHxjZ2Nar0rLXh2Z2eme2YX+5davvC4tr+tmu6u6rLIutaVS05kxBnzuSO/teR5B1x15HRzAFctOa6/az4jMiLDpobIRgcctsB1Bzy25LIjG/0MSy45YNYC1xxwSG3JoMpG0ScWuOyAF/0CJg7ghQUu1aJouwyK5o3ZYcnfLbnoDXS159X2tDPm09JAZ0Q2u0rlpCXfhAKNGe8ccLEmUikUtgbs1fezQND3PQ48egbsLgTWGfO1JV+XBdsR5gvWmNGgsBY4lmbVLQD6P0eeDQLrgItlA/YAn/AKa4Hvy4ZKhDbmlM93drlsoD68vJz7nZ4H9ujiUDZMCuiFzKv3rMiWMreezNDAIz0jpAZ25LmyJ1/Y+zxvzA5Hvh1aYD0npDmGWvJm2ZP2AD3ZF6xmJpb89yMAXtQMLtm7muJl/SDgD81jHXAv96SBe5Y82LSZ3cbP/STv2fNZ4JDaeSJSteRMDu/MqA211fwCs9v5qyGyoSuwViryeqU90azQnbD6M2+01MkDvcL5et5QtMD9mshWtTcrElnydhF/28MJv/bysJeDRpaJB4Fl0+7DeFiREa9nZuDuB6F518uzaYHJpfYX+T7wSinVD2yH19ql125eC+XZzlGPon2rgcnvfH9QEnQM7J0gcyCPrF6wyAshPqxryAYM4xjg8bgF60ow4BjoomDdSiT9EhfSU0GBPwjv0GGceK52BQF3rpihFqn+gLHGQtquuUWL4balbltPP/t0sG3JBTp4JO2zRUDXYw8eK0fLpaBh7OPZ9N5datsuMnm4M3DJg6p58/7xpYdXpJvyVBcGtQAwR36RVOL5O7N3yYN5YAOUeJ73LPG0wvpSjnC+1SwTeSritZpjbuWw8ZMk6Wm1um1NlWlVrT6qYQe+If1KrykKblbxDbuQutXJkmfKnnjmARyXtJoR2axXj0MI+6AhskmyqE7udMDLIYJ9NQfskjyyxowOS8uDq1S+Eh+aA46WDZQ4KpUT4lOWnCgdqvv40StsWxb4YdAa06wxpyWk7Mo7XX5nD/DK2zubJG0NKnXLAh444DMpqX34dYGw77Qgl6ktyZdax9DJwAnHP5b8baA6459Wq9u0p0LbDDwuSs81xVPbMqhqiGzQNoPmf6wAf6YpDOqzWoPSW/s6+WVi8j6IqolstVG035Lf1MkxhWld60y1wMa0bqzPxF5cr2tdkkb/A17RZykEf8vzAAAAAElFTkSuQmCC">
+        <h2>Message not sent</h2>
+        <p>Unfortunately this feauture is not available at the moment.<br />Thank you for your patience and support </p>
+        <button class="btn" onclick="toggle()">Close</button>
+    </div>
+     <div class="container" id="all">
+        <h1>Contact us</h1>
+        <div class="info">
+            <div class="info-left">
+                <h3>Send request</h3>
+                <div class="info-row">
+                    <div class="input-group">
+                        <label for="name">Name</label><input type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label><input type="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+                    <div class="info-row">
+                        <div class="input-group">              
+                            <label for="phone">Phone</label><input type="number" name="phone" placeholder="Phone">
+                        </div>
+                    </div>
+                    <label for="msg">Message</label><textarea name="msg" rows="5"></textarea>
+                    <button onclick="toggle()">Send</button>
+            </div>
+            <div class="info-right">
+                <h3>Reach us</h3>
+                <ul>
+                    <li>Instagram :<br />@webyt3s</li>
+                <li>Email :<br/>webyt3s@proton.mail</li>
+                <li>Phone / Whatsapp :<br />+263 718 961 865</li>
+                </ul>
+                
+            </div>
+        </div>
+     </div>
+</body>
+<div class="ftr">
+    <footer>
+        <p> Designed By: RONNIE </p>
+        <div class="ico">
+            <ul>
+                <li><a href="https://www.facebook.com/ngonidzashe.rupiya.35"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADP0lEQVR4nO2av2sUQRTHJ+rOO6JBxMrCH6CW2tgLKiYaC/E3aGUn/gM2SoJCDJJGCcqSne/bSzg0p03UiKiNndgkiKL2diaaRGMSi6zMJpAfZjezt3O3G7gvPLhi7r35zJt9N/P2hKirrpyru3uTBFpJcSeBnxH4Cyn8IPDf0PRnhc+k+CkBt6Xyj+vviFwoCBr0hEhxmcDTBA4SmcIUAf3EfEz7EllIMp8jxR8STz7ahiVwunYAwF6p8MYiwBKTil9RT8+e6kJ4fIbAY9WCoAWbcICL9gmCoIEUt9cAIFj6DHGnvWdHP9DAg5pDYH6rge9bgdGlMisIWsjMrVQQDnAhcwjMmePxpYqrE4F/2VlRTEnA0yVb+20qFrcK190sSqUtxLzLAfYR0LWKj3Hy/d3JQSyVWAl+3ej2bVstHil1eVVfil8mhFBnLe3tQdHWtsEkpgkIhTD+qSSlNvUvtlQYCbeQoUxBSGHIqIqFZyc72egwhUgEAm1oMXAYHgBTgzg9/v6oGI7vH5AK98JYC/befJHwMJ7C85oqOsX+H2hclMvroyBIYSal/z/CdRsjOcL7hI1tBR6OiVG0EsPzmyNB5i9FqYNI4G0kiMK3qj+DNHezs5ARvIisiHM3RhsxBmIygq+WVmtwxQDlsrS0dQN9bY7LyOhaAZHg73EZmVkzGQFPWwUJjwyl0pYlFtcdWT523gi4k3BrzcSB/Ey+MjgqLIgUP0q2gBiJdqZ7UZmBYChh7E9xqzKYCUhb2zoCT1osv9yRBUjB83Zavf5Kj09UAHJVn58WW2RfKggalo8Nx3t8pYK4LdFL47qNpPA7udOal99J0du7MTbNBH6cfxD0x0KEIJ7fnHsQ5iOGV118zDHIsDCVBE7mFUQCrcYgqdtBVQKRSdtBWrpxprviOQIZKxSLO0Ql0gdCUpjNHERh1lH+eZFGBNzMHoTbU0EsgrmbHQi6hE1J4JrxNrMBojBrLRMrvnozubOkBxk17/GmOqniefVAMFAAtotaKTwpR7U5KwCR4HfhnwiyUsHzD0pwX/giJjnIhO48ah8iNyrrSeKwBK7rwrDiGNd1CHgiFd8gzz+kv1PzedZVl0ikf/OOZN4BAFH6AAAAAElFTkSuQmCC"></a></li>
+                <li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABtElEQVR4nO2ZvUrEQBSFR3TvbOEfaCtY6Bv4Dgq6aCkKdpa+gluI4CuEzT1H0SoPYKeu+iB2ij8s+FPZRJJG0Owm64KZLHPgdHMn83HvnUkyxnh5ef1JAqwL2LaKDwvGpVrxIYorARp9QVjlUemLRzcoHhbOROmLRW+L6loBELadBwEu88sKfC97oTbfb0VA4irYeBAMUUZE8VAjNydOTmYS10JuC/hUORALLLuyXZtBQMzp6eSvgCCYqhyIZLwiJIdTBUH4XNfjnfEgmE2c9ojisXIg1iEbD4IhyogpEJM3RsDb5CyqA3MmisSE4cRYGC6Jcl8UL86DpAcnudLz4eS0Bc6dBrGt1oIpomZzTJQ3zoL0I0vOW/DTfZAoGs0bIsCZsyCW3BPgPm16xZ0ld7uNrQFbToIIudHP97cAi26CANeZIGA7MyDo/TJaGohVdDLnVXQyA+J4xE2QAee1HgQ+I5nypQXfI/S7lvXbb7asP0eM/4sS/7fNUFz0KF5zQZLb09IXit4W5UU+CNBwHiTkai5IWl7KQ3fLigeFIL5LTNeS21NHeuY9KafCmfDy8jI/9QUe+CWkYG67jgAAAABJRU5ErkJggg=="></a></li>
+                <li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADx0lEQVR4nO1ZSYhcVRR9mq57q9OdRByCA4ioRFTEiLpScAAnMKJgggqC7pwFwURQaYKunDCkN9/695xfVYuYUhA3GkQ3Ig4bXRiCgqiIiBqRTnBId7q75P0u2u6uVHX17/fzS6kDl1r8esN5d3r3PucGGGCAAY4HNEnO0zi5sQTcI2a3lsjNrtFY4/4TiON1YnxWDV8r2FwqAv4qQORJdptmLXl6mbyq7UMJuMTlDLHkDjH8ciwC2i5HFHh+qYaUPEeAcTX8XYqrly1mF9XPUPDPEnlXfiS4XQ2zPZJozovhrbLZ1WJ8SgwfKTjT+vZG+yLAE61BkwrcEJpEmbx3xQTQWQT4aaRW29i2kALvLFSpmN0ZjES1erYa/gpHggdLSXJxOvn4+KgCN80vJuD3SwbMiPGxEETEmATThuGLkiXbNOYDatijhj+UvHl+MQUnjj2Qr7so2pCZRb2+fs5pg5nVzCLtxHxy8amBP3exx28VuD4Lj/T0AvqGLhK80LagGD7pYeCbPvSthIgCO4MTMMyK8elOC77U40RHBIjnnW0ZiOG1wESOCnl7xwWHgCsznMp7ana/q1RO7kyEuwMTOdzD6fGDjJNPpWONzwmwZThJznLN5gmtObcHJjLRAxG7KFi8N0z6kC6G70ISEcOPnRm0Ts+jZHb30hDXX4IDnYmMjQ0p+KUCj4yanZaSCZiJA2vk3e5mBR7898/8oVteKZQIML6Mf3Bf0ZvU3kzroWU0gseL3ySXlbSC7AryJDUcKnqj2k0Mh3oqgwXY0edmtdf1hEZjzSqSYv5mZck2t7LGQFpONvtMDvsiyq0Iu3apGl/tp8Qoxt0uK/wNN63uDL8XSsQwK3F8QRYCl8/dWrFTjS/7bKqG6QKJ7MmmikZjWAy/FW1OOidTWqmcn42IL7SMD/cBiaaCr2QmsSAUF3ptEcM3rlYbcatGFG0Q4OOC/GK6bHaNC4bUX2iZWp2r0Qaww+UB33tV4G1f/OdPBHsXFnv5oF5fL5bc4ntKeSRMMe7zCdnljrGxE9Mrv29Vhnfu970pHw8CWwT8NBefMCa5amI4js9UswcV/ConnzgaxLFL5OaS2aVqdm76S17rm27pixBwIFenNuwfiuMrgpz4SK22cW7TnMo3Ei2SCQGecWTZhYZUq5ta7w2TeRJQ44vrqtVTXN4YjaJT/QOPAp8HMp9pMX6oMe9zUbTWFQGpVC9U8lH/6OjvPT1l97SBgc/887KQW7s1uItDozHsCxwfENJQTG6VOLlN4+Q6X8OkzesBBvh/4R8FE2Fvd6yelwAAAABJRU5ErkJggg=="></a></li>
+            </ul>
+        </div>
+        <p>Copyright &copy; 2024 WebBytes  All rights Reserved</p>
+        <p style="font-size: .5rem;">All icons used are subject to copyright of <a href="icons8.com" style="text-decoration: none;">icons8</a></p>
+        
+
+    </footer>
+</div>
+</html>
